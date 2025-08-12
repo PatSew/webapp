@@ -1,0 +1,6 @@
+application_name = "webapp"
+environment_name = "prod"
+primary_location = "northeurope"
+app_suffix = "3216787432"
+base_address_space = "10.42.0.0/22"
+branch = "thirdtask"
