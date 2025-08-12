@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Postgres Flask App</title>
+</head>
+<body>
+    <h1>Simple Postgres Flask App</h1>
+    
+    <form method="POST">
+        <input type="text" name="data" placeholder="Enter some data" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <h2>Stored Items:</h2>
+    <ul>
+    {% for id, content in items %}
+        <li>{{ content }}</li>
+    {% else %}
+        <li>No items found.</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
+
