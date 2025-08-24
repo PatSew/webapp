@@ -21,7 +21,7 @@ https://github.com/PatSew/webapp/tree/feature/firsttask
 - Package the application into a Docker image.
 - Provide a Dockerfile to build and run the application locally.
 - Run the application in a Docker container to ensure functionality.
-https://github.com/PatSew/webapp/tree/feature/secondttask
+https://github.com/PatSew/webapp/tree/feature/secondtask
  
 3. Infrastructure as Code (Terraform)
 - Write a Terraform script that allows the infrastructure to be deployed in different environments (e.g., dev, staging, production).
